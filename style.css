@@ -121,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 	align-self:center;
 }
 .introduction2img img{
-	width:400px;
+	width:450px;
 	
 }
 .introduction2content{
@@ -140,7 +140,7 @@ h1,h2,h3,h4,h5,h6{
 .introduction2content h2{
 	text-align:center;
 	font-size:27px;
-	padding: 20px 0px;
+	padding: 20px 0px 30px 0px;
 	color:#1ABC9C;
 }
 .introcontent{
@@ -148,6 +148,10 @@ h1,h2,h3,h4,h5,h6{
 	font-size:18px;
 	text-align:center;
 	color:#555555;
+}
+.introcontent p,span{
+	padding:5px 0px;
+	font-size:18px;
 }
 .introcontent span{
 	color:#1ABC9C;
@@ -205,6 +209,7 @@ h1,h2,h3,h4,h5,h6{
 	padding:8px 20px;
 	background:#1ABC9C;
 	color:white;
+	font-size:20px;
 	display:inline-block;
 	margin-top:20px;
 	border-radius:8px;
@@ -323,7 +328,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .contactdetails form input[type="submit"]{
 	padding:10px 15px;
-	color:#white;
+	color:white;
 	background:#1ABC9C;
 }
 .footer{
@@ -354,4 +359,192 @@ h1,h2,h3,h4,h5,h6{
 	color:#1ABC9C;
 	font-size:50px;
 	padding:30px;
+}
+
+
+
+
+@media screen and (max-width:480px){
+	
+.nav-section1{
+	display:block;
+}
+.nav-subsection1{
+	width:100%;
+	text-align:center;
+	padding:10px;
+}
+.nav-subsection1 a h1{
+	font-size:25px;
+}
+.nav-subsection2{
+	width:100%;
+	padding:20px 5px;
+	text-align:left;
+	
+	
+}
+.nav-subsection2 ul li{
+	padding-top:10px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:10px;
+	width:18%;
+	
+	
+}
+.nav-subsection2 ul li a{
+	text-decoration:none;
+	font-size:18px;
+	color:#1ABC9C;
+	text-align:center;
+	
+
+}
+#contact a{
+	background:#1ABC9C;
+	padding:5px 10px;
+	color:white;
+	border-radius:8px;
+}
+.hero{
+	height:600px;
+	padding:150px 30px 100px 50px;
+	text-align:center;
+	
+}
+.hero .introduction{
+	padding:20px;
+}
+.hero .introduction h1{
+	font-size:30px;
+}
+.hero .introduction h2{
+	font-size:20px;
+}
+.hero .introduction p{
+	width:100%;
+	font-size:21px;
+	padding-bottom:30px;
+}
+.hero .introduction a{
+	font-size:21px;
+}
+.introduction2{
+	
+	flex-direction:column;
+	padding:10px 10px;
+	justify-content:center;
+	margin:50px 30px;
+}
+.introduction2img{
+	width:100%;
+	margin:auto;
+	align-self:center;
+}
+.introduction2img img{
+	width:350px;
+	display:block;
+	margin:auto;
+}
+.introduction2content{
+	width:100%;
+	margin:auto;
+	padding:30px 10px;
+}
+.introduction2content .divider{
+	width:80%;
+	margin:auto;
+}
+.introduction2content h2{
+	text-align:center;
+	font-size:35px;
+	
+	
+}
+.introcontent{
+	padding:30px 0px;
+
+}
+.introcontent p,span{
+	padding:5px 0px;
+	font-size:20px;
+}
+#skills ul li{
+	padding-right:20px;
+}
+#skills ul li img{
+	width:30px;
+}
+.portfolio{
+	background:#E0E0E0;
+	margin:50px 30px;
+}
+.portfolio .portfoliocontent h2{
+	font-size:35px;
+}
+.portfolio .portfolioproject{
+	justify-content:center;
+	flex-direction:column;
+	width:100%;
+	padding:20px 0px;
+}
+.portfolio .portfolioproject img{
+	width:380px;
+	display:block;
+	margin:auto;
+}
+.portfolio .portfolioproject .partline{
+	width:0px;
+	background:#34495e;
+}
+.portfolio .portfolioproject .project{
+	padding:15px;
+	text-align:center;
+	width:100%;
+}
+.portfolio .portfolioproject .project h2{
+	font-size:35px;
+}
+.portfolio .portfolioproject .project p{
+	font-size:18px;
+}
+.portfolio .portfolioproject .project  a{
+	padding:10px 30px;
+	
+}
+.contact{
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	padding:10px;
+	margin:50px 30px;
+	background:#E0E0E0;
+}
+.contactdetails{
+	width:100%;
+	text-align:center;
+}
+.contactdetails h2{
+	font-size:35px;
+}
+.contactdetails p{
+	font-size:20px;
+}
+.contactdetails form input{
+	margin:10px 0px;
+	padding:10px 0px 10px 10px;
+	width:100%;
+}
+.contactdetails form input[type="submit"]{
+	padding:10px 15px;
+	width:30%;
+}
+.footer p{
+	font-size:16px;
+}
+.footer a{
+	
+	font-size:18px;
+}
 }
