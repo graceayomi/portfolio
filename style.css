@@ -7,14 +7,14 @@
 }
 body{
 	min-height:700px;
+	background:#34495E
 }
-div{
-	border:solid 1px blue;
-}
+
 h1,h2,h3,h4,h5,h6{
 	font-family: "Montserrat", sans-serif
 }
 .nav-section1{
+	background:#E0E0E0;
 	display:flex;
 	align-items:center;
 	padding:8px;
@@ -29,10 +29,15 @@ h1,h2,h3,h4,h5,h6{
 	width:30px;
 	
 }
-.nav-subsection1 h1{
+.nav-subsection1 a h1{
 	display:inline-block;
 	padding-left:10px;
 	font-size:20px;
+	color:#1ABC9C;
+	
+}
+.nav-subsection1 a h1:hover{
+	text-decoration:underline;
 }
 .nav-subsection2{
 	width:80%;
@@ -49,9 +54,10 @@ h1,h2,h3,h4,h5,h6{
 .nav-subsection2 ul li a{
 	text-decoration:none;
 	font-size:18px;
+	color:#1ABC9C;
 }
 #contact a{
-	background:blue;
+	background:#1ABC9C;
 	padding:5px 10px;
 	color:white;
 	border-radius:8px;
@@ -60,6 +66,7 @@ h1,h2,h3,h4,h5,h6{
 	height:500px;
 	text-align:left;
 	padding:150px 150px 150px 250px;
+	color:#fff;
 }
 .hero .introduction h1{
 	font-size:40px;
@@ -78,17 +85,17 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration:none;
 	color:white;
 	padding:5px 12px;
-	background:blue;
+	background:#1ABC9C;
 	border-radius:8px;
 	font-size:18px;
 	margin-right:25px;
 }
 .hero .introduction a#portfoliobutton{
 	background:white;
-	color:blue;
+	color:#1ABC9C;
 }
 .socialmediaicons {
-	background:#fff;
+	background:#E0E0E0;
 	position:fixed;
 	top:30%;
 	z-index:100000
@@ -105,6 +112,8 @@ h1,h2,h3,h4,h5,h6{
 	display:flex;
 	padding:10px 10px;
 	justify-content:space-between;
+	background:#E0E0E0;
+	margin:50px 30px;
 }
 .introduction2img{
 	width:30%;
@@ -122,15 +131,26 @@ h1,h2,h3,h4,h5,h6{
 	margin-right:30px;
 	padding:30px;
 }
+.introduction2content .divider{
+	width:60%;
+	margin:auto;
+	height:3px;
+	background:#34495e;
+}
 .introduction2content h2{
 	text-align:center;
 	font-size:27px;
 	padding: 20px 0px;
+	color:#1ABC9C;
 }
 .introcontent{
 	padding:30px;
 	font-size:18px;
 	text-align:center;
+	color:#555555;
+}
+.introcontent span{
+	color:#1ABC9C;
 }
 #skills ul li{
 	display:inline-block;
@@ -140,10 +160,15 @@ h1,h2,h3,h4,h5,h6{
 #skills ul li img{
 	width:50px;
 }
+.portfolio{
+	background:#E0E0E0;
+	margin:50px 30px;
+}
 .portfolio .portfoliocontent h2{
 	text-align:center;
 	font-size:27px;
 	padding: 20px 0px;
+	color:#1ABC9C;
 	
 }
 .portfolio .portfolioproject{
@@ -158,7 +183,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .portfolio .portfolioproject .partline{
 	width:10px;
-	background-color:black;	
+	background:#34495e;
 }
 .portfolio .portfolioproject .project{
 	padding:15px;
@@ -168,23 +193,31 @@ h1,h2,h3,h4,h5,h6{
 .portfolio .portfolioproject .project h2{
 	font-size:25px;
 	padding:15px;
+	color:#555555;
 }
 .portfolio .portfolioproject .project p{
 	padding-bottom:10px;
 	font-size:18px;
+	color:#555555;
 }
 .portfolio .portfolioproject .project  a{
 	text-decoration:none;
 	padding:8px 20px;
-	background:blue;
+	background:#1ABC9C;
 	color:white;
 	display:inline-block;
 	margin-top:20px;
+	border-radius:8px;
+}
+.skillsbarparent{
+	background:#E0E0E0;
+	margin:50px 30px;
 }
 .skillsbarparent .skillsbarhead h2{
 	text-align:center;
 	font-size:27px;
 	padding: 20px 0px;
+	color:#1ABC9C;
 }
 .skillsbarparent .barsparent{
 	display:flex;
@@ -201,9 +234,13 @@ h1,h2,h3,h4,h5,h6{
 	border:none;
 	
 }
+.skillsbarparent .barsparent .skillsbartag p{
+	color:#555555;
+}
 .skillsbarparent .barsparent .skillsbartag .skillsbar{
 	height:30px;
-	border:solid red 1px;
+	border:solid  2px;
+	border-color:#34495e;
 	
 }
 .skillsbarparent .barsparent .skillsbartag .skillsbar .bar1{
@@ -250,11 +287,11 @@ h1,h2,h3,h4,h5,h6{
 }
 .contact{
 	display:flex;
-	width:80%;
 	justify-content:space-between;
 	align-items:center;
 	padding:30px;
-	margin:auto;
+	margin:50px 30px;
+	background:#E0E0E0;
 }
 .contactdetails{
 	width:45%;
@@ -263,11 +300,13 @@ h1,h2,h3,h4,h5,h6{
 .contactdetails h2{
 	text-align:center;
 	font-size:27px;
+	color:#1ABC9C;
 	padding: 20px 0px;
 }
 .contactdetails p{
 	font-size:18px;
 	padding-bottom:10px;
+	color:#555555;
 }
 
  .contactdetails  ul.contacticons li{
@@ -284,6 +323,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .contactdetails form input[type="submit"]{
 	padding:10px 15px;
+	color:#white;
+	background:#1ABC9C;
 }
 .footer{
 	min-height:80px;
@@ -293,10 +334,24 @@ h1,h2,h3,h4,h5,h6{
 .footer p{
 	padding:10px 0px;
 	font-size:20px;
+	color:white;
 }
 .footer a{
-	color:blue;
+	color:#1ABC9C;
 	font-size:18px;
 	display:inline block;
 	margin-top:20px;
+}
+.thankyoupage{
+	background:#E0E0E0;
+	height:300px;
+	text-align:center;
+	margin:100px;
+	width:80%;
+	
+}
+.thankyoupage p{
+	color:#1ABC9C;
+	font-size:50px;
+	padding:30px;
 }

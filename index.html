@@ -33,15 +33,15 @@
 			<div class="nav-section1">
 				<div class="nav-subsection1">
 					<img src="images/briefcase.png" alt="image of a briefcase as a portfolio logo"/>
-					<h1>PORTFOLIO</h1>
+					<a href="index.html"><h1>PORTFOLIO</h1></a>
 				</div>
 				<div class="nav-subsection2">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="">About</a></li>
-						<li><a href="">Portfolio</a></li>
-						<li><a href="">Skills</a></li>
-						<li id="contact"><a href="">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolionav">Portfolio</a></li>
+						<li><a href="#skillsnav">Skills</a></li>
+						<li id="contact"><a href="#contactnav">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 					<h2>Full-Stack Web-Developer</h2>
 					<p> I specialize in crafting sophisticated websites, blending creativity with technical
 					expertise for impactful digital experiences.</p>
-					<a href="#">Get in Touch</a> <a href="#" id="portfoliobutton">View Portfolio</a>
+					<a href="#contactnav">Get in Touch</a> <a href="#portfolionav" id="portfoliobutton">View Portfolio</a>
 				</div>
 			</div>
 			<div class="socialmediaicons">
@@ -68,7 +68,7 @@
 					<div class="introduction2img">
 					 <img src="images/myphoto.jpg" alt="Picture Of Oloruntobi Grace "/>
 					</div>
-				<div class="introduction2content">	
+				<div class="introduction2content" id="about">	
 					<div class="introcontent">
 						<h2>Introduction</h2>
 						<p>
@@ -77,6 +77,7 @@
 							skincare routines for a balanced lifestyle.
 						</p>
 					</div>
+					<hr class="divider">
 					<div id="skills"  class="introcontent">
 						<h2>skills </h2>
 						<ul>
@@ -89,6 +90,7 @@
 							<li><img src="images/github.png" alt="A logo representing that i am skilled in the usage of github"/></li>
 						</ul>
 					</div>
+					<hr class="divider">
 					<div  class="introcontent">
 						<h2>Achievements</h2>
 						<p>I have worked on many successful projects like  the <span>The world News Forum</span></p>
@@ -103,7 +105,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="portfolio">
+			<div class="portfolio" id="portfolionav">
 				<div class="portfoliocontent">
 						<h2>Portfolio</h2>
 				</div>
@@ -112,26 +114,30 @@
 					<div class="project">
 						<img src="images/project1.png" alt="A screenshot of my first project"/>
 						<h2>Better Healing</h2>
-						<p> Better healing is a non-governmental</p><p> organisation
-						that offers online therapy and counselling.</p>
-						<p> This project was inspired through an assignment</p>
-						<p>given to me in the first week of my training as a</p><p> software engineer. </p>
+						<p> Better healing is a non-governmental
+						<p>organisation that offers online therapy and</p>
+						<p>counselling.</p>
+						<p> This project was inspired through an</p>
+						<p>assignment given to me in the first week of my</p>
+						<p>training as a software engineer. </p>
 						<a href="#" target="_blank">View Live Page</a>
 					</div>
 					<div class="partline"></div>
 					<div class="project">
 						<img src="images/project2.png" alt="A screenshot of my second project"/>
 						<h2>Tola cleans</h2>
-						<p> This is a corporate website built for a</p><p> cleaning agency 
-						that offer service to both</p> <p>individuals and institutions. </p>
-						<p> This project was inspired through an assignment</p>
-						<p>given to me in the second week of my training as </p><p> a software engineer. </p>
+						<p> This is a corporate website built for a cleaning</p>
+						<p>agency that offer service to bothindividuals and</p>
+						<p> institutions.</p>
+						<p> This project was inspired through an</p>
+						<p>assignment given to me in the second week of</p>
+						<p> my training as a software engineer. </p>
 						<a href="#" target="_blank">View Live Page</a>
 					</div>
 					
 				</div>
 			</div>
-			<div class="skillsbarparent">
+			<div class="skillsbarparent" id="skillsnav">
 				<div class="skillsbarhead">
 					<h2>Skills Expertise</h2>
 				</div>
@@ -181,7 +187,7 @@
 				</div>
 			</div>
 			
-			<div class="contact">
+			<div class="contact" id="contactnav">
 			
 					<div class="contactdetails">
 						<h2>Contact</h2>
@@ -198,7 +204,7 @@
 						<form action="index.html" method="get">
 							<input required type="text" name="name" Placeholder="Name" size="50"><br>
 							<input required type="email" name="mail" placeholder="Email" size="50"/><br>
-							<input type="submit" name="submit" Value="Contact">
+							<a href="thankyou.html"><input type="submit" name="submit" Value="Contact"></a>
 						</form>
 					</div>
 				
