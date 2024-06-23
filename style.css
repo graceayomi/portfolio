@@ -3,5 +3,300 @@
 	margin:0px;
 	box-sizing:border-box;
 	font-size:16px;
-	font-family
+	font-family: "Roboto", sans-serif;
+}
+body{
+	min-height:700px;
+}
+div{
+	border:solid 1px blue;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Montserrat", sans-serif
+}
+.nav-section1{
+	display:flex;
+	align-items:center;
+	padding:8px;
+	position:sticky;
+	top:0px;
+}
+.nav-subsection1{
+	width:20%;
+	padding-left:20px;
+}
+.nav-subsection1 img{
+	width:30px;
+	
+}
+.nav-subsection1 h1{
+	display:inline-block;
+	padding-left:10px;
+	font-size:20px;
+}
+.nav-subsection2{
+	width:80%;
+	text-align:right;
+	padding-right:40px;
+}
+.nav-subsection2 ul li{
+	display:inline-block;
+	list-style-type:none;
+	width:8%;
+	text-align:center;
+	
+}
+.nav-subsection2 ul li a{
+	text-decoration:none;
+	font-size:18px;
+}
+#contact a{
+	background:blue;
+	padding:5px 10px;
+	color:white;
+	border-radius:8px;
+}
+.hero{
+	height:500px;
+	text-align:left;
+	padding:150px 150px 150px 250px;
+}
+.hero .introduction h1{
+	font-size:40px;
+	padding-bottom:10px;
+}
+.hero .introduction h2{
+	font-size:30px;
+	padding-bottom:10px;
+}
+.hero .introduction p{
+	width:50%;
+	word-spacing:2px;
+	padding-bottom:25px;
+}
+.hero .introduction a{
+	text-decoration:none;
+	color:white;
+	padding:5px 12px;
+	background:blue;
+	border-radius:8px;
+	font-size:18px;
+	margin-right:25px;
+}
+.hero .introduction a#portfoliobutton{
+	background:white;
+	color:blue;
+}
+.socialmediaicons {
+	background:#fff;
+	position:fixed;
+	top:30%;
+	z-index:100000
+	
+}
+.socialmediaicons ul li{
+	list-style-type:none;
+	padding: 5px 5px 15px 3px;
+}
+.socialmediaicons ul li img{
+    width:35px;
+}
+.introduction2{
+	display:flex;
+	padding:10px 10px;
+	justify-content:space-between;
+}
+.introduction2img{
+	width:30%;
+	margin-left:30px;
+	align-self:center;
+}
+.introduction2img img{
+	width:400px;
+	
+}
+.introduction2content{
+	width:60%;
+	display:flex;
+	flex-direction:column;
+	margin-right:30px;
+	padding:30px;
+}
+.introduction2content h2{
+	text-align:center;
+	font-size:27px;
+	padding: 20px 0px;
+}
+.introcontent{
+	padding:30px;
+	font-size:18px;
+	text-align:center;
+}
+#skills ul li{
+	display:inline-block;
+	list-style-type:none;
+	padding-right:25px;
+}
+#skills ul li img{
+	width:50px;
+}
+.portfolio .portfoliocontent h2{
+	text-align:center;
+	font-size:27px;
+	padding: 20px 0px;
+	
+}
+.portfolio .portfolioproject{
+	display:flex;
+	justify-content:space-around;
+	margin:auto;
+	width:80%;
+	padding:20px 0px;
+}
+.portfolio .portfolioproject img{
+	width:400px;
+}
+.portfolio .portfolioproject .partline{
+	width:10px;
+	background-color:black;	
+}
+.portfolio .portfolioproject .project{
+	padding:15px;
+	text-align:center;
+	width:40%;
+}
+.portfolio .portfolioproject .project h2{
+	font-size:25px;
+	padding:15px;
+}
+.portfolio .portfolioproject .project p{
+	padding-bottom:10px;
+	font-size:18px;
+}
+.portfolio .portfolioproject .project  a{
+	text-decoration:none;
+	padding:8px 20px;
+	background:blue;
+	color:white;
+	display:inline-block;
+	margin-top:20px;
+}
+.skillsbarparent .skillsbarhead h2{
+	text-align:center;
+	font-size:27px;
+	padding: 20px 0px;
+}
+.skillsbarparent .barsparent{
+	display:flex;
+	width:80%;
+	margin:auto;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	padding:20px 0px;
+}
+.skillsbarparent .barsparent .skillsbartag{
+	width:45%;
+	display:inline-block;
+	margin:20px 0px;
+	border:none;
+	
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar{
+	height:30px;
+	border:solid red 1px;
+	
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar1{
+	height:28px;
+	width:90%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar2{
+	height:28px;
+	width:85%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar3{
+	height:28px;
+	width:80%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar4{
+	height:28px;
+	width:90%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar5{
+	height:28px;
+	width:60%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar6{
+	height:28px;
+	width:95%;
+	background:green;
+	border:none;
+}
+.skillsbarparent .barsparent .skillsbartag .skillsbar .bar7{
+	height:28px;
+	width:70%;
+	background:green;
+	border:none;
+}
+.contact{
+	display:flex;
+	width:80%;
+	justify-content:space-between;
+	align-items:center;
+	padding:30px;
+	margin:auto;
+}
+.contactdetails{
+	width:45%;
+	text-align:center;
+}
+.contactdetails h2{
+	text-align:center;
+	font-size:27px;
+	padding: 20px 0px;
+}
+.contactdetails p{
+	font-size:18px;
+	padding-bottom:10px;
+}
+
+ .contactdetails  ul.contacticons li{
+	list-style-type:none;
+	padding: 0px 10px;
+	display:inline-block;
+}
+.contactdetails  ul.contacticons li img{
+    width:20px;
+}
+.contactdetails form input{
+	margin:10px 0px;
+	padding:10px 0px 10px 10px;
+}
+.contactdetails form input[type="submit"]{
+	padding:10px 15px;
+}
+.footer{
+	min-height:80px;
+	text-align:center;
+	
+}
+.footer p{
+	padding:10px 0px;
+	font-size:20px;
+}
+.footer a{
+	color:blue;
+	font-size:18px;
+	display:inline block;
+	margin-top:20px;
 }
